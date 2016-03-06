@@ -34,7 +34,9 @@ div#maintitle {
   text-align: center;
   color: rgb(91, 161, 200);
   margin: auto;
-  width: 600px;
+  width: 45%;
+  min-width: 330px;
+  max-width: 600px;
   opacity: 0.8;
 
 }
