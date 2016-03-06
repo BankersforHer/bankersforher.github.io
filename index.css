@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+}
+
+div#landing {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 100%;
+  width: 100%;
+}
+
+div#landing img {
+  height: 175px;
+  position: absolute;
+  right: 50px;
+  top: 0;
+}
+
+div#maintitle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: rgb(91, 161, 200);
+  margin: auto;
+  width: 600px;
+
+}
+
+div#maintitle div.textarea {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+div#maintitle div.titletext {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+div#secondary {
+  background-color: rgb(91, 161, 200);
+  color: rgb(256, 256, 256);
+  padding: 30px 50px 30px 50px;
+  text-align: center;
+}
+
+div#secondary div.title, div#sponsor div.title {
+  font-size: 48px;
+}
+
+div#secondary div.description {
+  padding: 20px;
+  line-height: 30px;
+}
